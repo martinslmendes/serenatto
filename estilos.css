@@ -3,7 +3,6 @@ body {
     --marrom-escuro: #816D4F;
     --marrom-claro: #B29463;
     font-family: "Barlow", sans-serif;
-    height: 4000px;
 }
 
 input[type=checkbox]:checked,
@@ -18,6 +17,14 @@ input[type=checkbox]:focus {
     background-image: url(./assets/banner-1.png);
 }
 
+.banner-2 {
+    background-image: url(./assets/banner-2.png);
+}
+
+.banner-3 {
+    background-image: url(./assets/banner-3.png);
+}
+
 .banners {
     width: 100%;
     height: 100vh;
@@ -25,4 +32,17 @@ input[type=checkbox]:focus {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.banners-title {
+    --bs-bg-opacity: .2;
+}
+
+.btn-default {
+    background-color: var(--marrom-claro);
+    color: black;
+}
+
+.btn-default:hover {
+    background-color: var(--marrom-escuro);
 }
