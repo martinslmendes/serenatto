@@ -5,6 +5,34 @@ body {
     font-family: "Barlow", sans-serif;
 }
 
+[data-bs-theme="dark"] {
+    color: white;
+
+    .nav-link, .card-body {
+        --bs-nav-link-color: white;
+    }
+
+    .card-body {
+        --bs-card-color: white;
+    }
+
+    .offcanvas {
+        --bs-offcanvas-color: white;
+    }
+
+    .accordion-item {
+        --bs-body-color: white;
+    }
+
+    .btn {
+        --bs-body-color: white;
+    }
+}
+
+div.card {
+    width: 18rem;
+}
+
 input[type=checkbox]:checked,
 input[type=checkbox]:focus {
     background-color: var(--light-brown);
@@ -50,6 +78,7 @@ input[type=range]::-webkit-slider-thumb {
 .btn-default:hover {
     background-color: var(--dark-brown);
 }
-footer{
+
+footer {
     background-color: var(--light-brown);
 }
