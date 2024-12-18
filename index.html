@@ -193,37 +193,39 @@
     </section>
 
     <section class="py-4 container">
-        <div class="border border-2 rounded p-3">
-            <h3 class="fw-bold p-3">Entre em contato</h3>
-            <form id="contact">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="contact-name" placeholder="Nome">
-                    <label for="contact-name">Nome</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="contact-email" placeholder="E-mail">
-                    <label for="contact-email">E-mail</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="contact-phone" placeholder="Telefone">
-                    <label for="contact-phone">Telefone</label>
-                </div>
-                <select aria-label="Preferência de contato" class="form-select mb-3" id="contact-select">
-                    <option selected>Preferência de contato:</option>
-                    <option value="1">E-mail</option>
-                    <option value="2">WhatsApp</option>
-                    <option value="3">Ligação</option>
-                </select>
-                <label for="contact-level" class="form-label">Nível de satisfação:</label>
-                <input type="range" class="form-range" id="contact-level">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="contact-newsletter">
-                    <label class="form-check-label" for="contact-newsletter">
-                        Deseja receber novidades e promoções por e-mail?
-                    </label>
-                </div>
-                <button type="button" class="btn btn-default w-100 fw-bold mt-3 py-3">Enviar</button>
-            </form>
+        <div class="border border-2 rounded p-3 row">
+            <div class="col-10 col-xl-8 mx-auto">
+                <h3 class="fw-bold p-3">Entre em contato</h3>
+                <form id="contact">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="contact-name" placeholder="Nome">
+                        <label for="contact-name">Nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="contact-email" placeholder="E-mail">
+                        <label for="contact-email">E-mail</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="contact-phone" placeholder="Telefone">
+                        <label for="contact-phone">Telefone</label>
+                    </div>
+                    <select aria-label="Preferência de contato" class="form-select mb-3" id="contact-select">
+                        <option selected>Preferência de contato:</option>
+                        <option value="1">E-mail</option>
+                        <option value="2">WhatsApp</option>
+                        <option value="3">Ligação</option>
+                    </select>
+                    <label for="contact-level" class="form-label">Nível de satisfação:</label>
+                    <input type="range" class="form-range" id="contact-level">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="contact-newsletter">
+                        <label class="form-check-label" for="contact-newsletter">
+                            Deseja receber novidades e promoções por e-mail?
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-default w-100 fw-bold mt-3 py-3">Enviar</button>
+                </form>
+            </div>
         </div>
     </section>
 
